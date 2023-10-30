@@ -1,4 +1,6 @@
 export default (function() {
+	if (!window.location.pathname.includes("index.html")) return // guard clause
+
 	const FORM = document.querySelector(".nameForm")
 	const NAME = document.querySelector(".name")
 

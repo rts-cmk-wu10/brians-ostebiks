@@ -1,4 +1,6 @@
 export default (async function init(offset = 0) {
+	if (!window.location.pathname.includes("index.html")) return // guard clause
+
 	let fetchObserver = new IntersectionObserver(callback, {rootMargin: "0px", threshold: 1.0})
 	let imageObserver = new IntersectionObserver(imageCallback, {rootMargin: "0px", threshold: 1.0})
 	

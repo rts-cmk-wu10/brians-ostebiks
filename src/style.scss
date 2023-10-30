@@ -1,1 +1,17 @@
 @use "./scss/reset";
+@use "./scss/slider";
+@use "./scss/progress";
+
+.backToTop {
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	background-color: purple;
+	color: white;
+	border-radius: 50%;
+	text-decoration: none;
+	font-size: .5em;
+}

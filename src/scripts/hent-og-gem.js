@@ -1,4 +1,6 @@
 export default (async function() {
+	if (!window.location.pathname.includes("index.html")) return // guard clause
+
 	const response = await fetch("https://pokeapi.co/api/v2/pokemon/ditto")
 	const pokemon = await response.json()
 
