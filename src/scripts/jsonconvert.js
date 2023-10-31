@@ -1,4 +1,5 @@
 export default (function() {
+	if (!window.location.pathname.includes("index.html")) return // guard clause
 	const json = {
 		"name": "Brian",
 		"age": 2561,
