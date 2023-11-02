@@ -1,6 +1,9 @@
 @use "./scss/reset";
 @use "./scss/slider";
 @use "./scss/progress";
+@use "./scss/darkmode";
+@use "./scss/switch";
+@use "./scss/touch";
 
 .backToTop {
 	opacity: 0;
